@@ -1,0 +1,66 @@
+Processing data set...
+1/13 Files ======2/13 Files ============3/13 Files ==================4/13 Files ========================5/13 Files ==============================6/13 Files ====================================7/13 Files ==========================================8/13 Files ================================================9/13 Files ======================================================10/13 Files ============================================================11/13 Files ==================================================================12/13 Files ========================================================================13/13 Files =============================================================================={'bg_flows': 2753288,
+ 'botnet_flows': 40961,
+ 'cc_flows': 341,
+ 'normal_flows': 30387,
+ 'total_flows': 2824636}
+{'bg_flows': 1778061,
+ 'botnet_flows': 20941,
+ 'cc_flows': 673,
+ 'normal_flows': 9120,
+ 'total_flows': 1808122}
+{'bg_flows': 4566929,
+ 'botnet_flows': 26822,
+ 'cc_flows': 63,
+ 'normal_flows': 116887,
+ 'total_flows': 4710638}
+{'bg_flows': 124252,
+ 'botnet_flows': 901,
+ 'cc_flows': 24,
+ 'normal_flows': 4679,
+ 'total_flows': 129832}
+{'bg_flows': 1853207,
+ 'botnet_flows': 40003,
+ 'cc_flows': 536,
+ 'normal_flows': 31939,
+ 'total_flows': 1925149}
+{'bg_flows': 1093228,
+ 'botnet_flows': 2580,
+ 'cc_flows': 52,
+ 'normal_flows': 25268,
+ 'total_flows': 1121076}
+{'bg_flows': 112337,
+ 'botnet_flows': 63,
+ 'cc_flows': 26,
+ 'normal_flows': 1677,
+ 'total_flows': 114077}
+{'bg_flows': 2875281,
+ 'botnet_flows': 6127,
+ 'cc_flows': 1074,
+ 'normal_flows': 72822,
+ 'total_flows': 2954230}
+{'bg_flows': 546795,
+ 'botnet_flows': 4630,
+ 'cc_flows': 199,
+ 'normal_flows': 7494,
+ 'total_flows': 558919}
+{'bg_flows': 1872554,
+ 'botnet_flows': 184987,
+ 'cc_flows': 2973,
+ 'normal_flows': 29967,
+ 'total_flows': 2087508}
+{'bg_flows': 96369,
+ 'botnet_flows': 8164,
+ 'cc_flows': 2,
+ 'normal_flows': 2718,
+ 'total_flows': 107251}
+{'bg_flows': 1187592,
+ 'botnet_flows': 106352,
+ 'cc_flows': 33,
+ 'normal_flows': 15847,
+ 'total_flows': 1309791}
+{'bg_flows': 315675,
+ 'botnet_flows': 2168,
+ 'cc_flows': 25,
+ 'normal_flows': 7628,
+ 'total_flows': 325471}
