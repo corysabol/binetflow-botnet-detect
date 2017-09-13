@@ -1,7 +1,6 @@
 import os.path
 import sys
 import pandas as pd
-import pprint as pp
 
 # create a sample of the data we will be working with, using pandas.
 basepath = os.path.dirname(__file__)
@@ -12,6 +11,32 @@ dataset_path = os.path.abspath(os.path.join(basepath,"..","CTU-13-Dataset"))
 # dictionary to hold information about the dataset.
 dataset_info = {}
 directory = os.fsencode(dataset_path)
+
+def binet_summary_to_md(summaries):
+    '''
+    Expects a dict of summaries of binet flow files.
+    it will spit out a markdown formatted table of the summaries.
+    '''
+    template_header = \
+    '|Scen.|Total Flows|Botnet Flows|Normal Flows|C&C Flows|Background Flows|\n' + \
+    '|---|---|---|---|---|---|\n'
+    
+    template_row = \
+    '|{0}|{1}|{2}|{3}|{4}|{5}|\n'
+
+    output = template_header
+    i = 1
+    for s in summaries:
+        output = output + template_row.format(\
+            i,\
+            str(s['total_flows']),\
+            str(s['botnet_flows']) + ' %' + str(s['botnet_flows'] / s['total_flows'] * 100),\
+            str(s['normal_flows']) + ' %' + str(s['normal_flows'] / s['total_flows'] * 100),\
+            str(s['cc_flows']) + ' %' + str(s['cc_flows'] / s['total_flows'] * 100),\
+            str(s['bg_flows']) + ' %' + str(s['bg_flows'] / s['total_flows'] * 100)\
+        )
+        i = i + 1
+    return output
 
 def summarize_binet_file(f):
     '''
@@ -56,6 +81,5 @@ for f in os.listdir(directory):
         sys.stdout.write('%d/13 Files %s\r' % (i,progress))
         sys.stdout.flush()
 
-# Display the summaries to a file
-for s in summaries:
-    pp.pprint(s)
+# Print the dataset summary table.
+print(binet_summary_to_md(summaries))
