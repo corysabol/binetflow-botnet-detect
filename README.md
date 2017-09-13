@@ -3,7 +3,7 @@
 Using various machine learning techniques to classify bi directional traffic as malicious
 botnet traffic. 
 
-### [CTU-13 Dataset](https://mcfp.felk.cvut.cz/publicDatasets/CTU-13-Dataset.tar.bz2)
+### [CTU-13 Dataset](https://mcfp.felk.cvut.cz/publicDatasets/CTU-13-Dataset/CTU-13-Dataset.tar.bz2)
  
 ### Run the code yourself.
 ---
