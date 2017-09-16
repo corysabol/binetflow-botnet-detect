@@ -21,8 +21,9 @@ def binet_summary_to_md(summaries):
     '|Scen.|Total Flows|Botnet Flows|Normal Flows|C&C Flows|Background Flows|\n' + \
     '|---|---|---|---|---|---|\n'
     
+    # This is hacky...
     template_row = \
-    '|{0}|{1}|{2}|{3}|{4}|{5}|\n'
+    '|{}|{}|{}({:.2f}%)|{}({:.2f}%)|{}({:.2f}%)|{}({:.2f}%)|\n'
 
     output = template_header
     i = 1
@@ -30,10 +31,10 @@ def binet_summary_to_md(summaries):
         output = output + template_row.format(\
             i,\
             str(s['total_flows']),\
-            str(s['botnet_flows']) + ' %' + str(s['botnet_flows'] / s['total_flows'] * 100),\
-            str(s['normal_flows']) + ' %' + str(s['normal_flows'] / s['total_flows'] * 100),\
-            str(s['cc_flows']) + ' %' + str(s['cc_flows'] / s['total_flows'] * 100),\
-            str(s['bg_flows']) + ' %' + str(s['bg_flows'] / s['total_flows'] * 100)\
+            str(s['botnet_flows']), (s['botnet_flows'] / s['total_flows'] * 100),\
+            str(s['normal_flows']), (s['normal_flows'] / s['total_flows'] * 100),\
+            str(s['cc_flows']), (s['cc_flows'] / s['total_flows'] * 100),\
+            str(s['bg_flows']), (s['bg_flows'] / s['total_flows'] * 100)\
         )
         i = i + 1
     return output
@@ -80,6 +81,8 @@ for f in os.listdir(directory):
         progress = progress + '=' * 6
         sys.stdout.write('%d/13 Files %s\r' % (i,progress))
         sys.stdout.flush()
+sys.stdout.write('\n')
+sys.stdout.flush()
 
 # Print the dataset summary table.
-print(binet_summary_to_md(summaries))
+sys.stdout.write(binet_summary_to_md(summaries))
