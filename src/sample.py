@@ -62,7 +62,6 @@ def summarize_binet_file(f):
     file_summary['bg_flows']     = f[f['Label'].str.contains('Background')].size
     
     return file_summary
-    
 
 print('Processing data set...')
 progress = ''
