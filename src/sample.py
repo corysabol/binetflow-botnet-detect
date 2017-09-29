@@ -57,8 +57,8 @@ def summarize_binet_file(f):
     file_summary['total_flows']  = f.size
     file_summary['botnet_flows'] = f[f['Label'].str.contains('Botnet')].size
     file_summary['normal_flows'] = f[f['Label'].str.contains('Normal')].size
-    file_summary['cc_flows']     = f[(f['Label'].str.contains('Botnet') 
-                                    & f['Label'].str.contains('CC'))].size
+    file_summary['cc_flows']     = f[(f['Label'].str.contains('Botnet')) 
+                                    & (f['Label'].str.contains('CC'))].size
     file_summary['bg_flows']     = f[f['Label'].str.contains('Background')].size
     
     return file_summary
