@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import os
 import datetime as dt
-from pandas.tools.plotting import scatter_matrix
+#from pandas.tools.plotting import scatter_matrix
 import matplotlib.pyplot as plt
 import seaborn as sns
 
@@ -212,3 +212,8 @@ for f in files:
             label='CTU-13-Binet {} Heatmap'.format(i))
     plts.append(p)
     i += 1
+
+    j = 0
+    for p in plts:
+        p.savefig(os.path.join('..','plots','hm{}'.format(j)))
+        j += 1
