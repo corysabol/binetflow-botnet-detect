@@ -2,14 +2,15 @@ import pandas as pd
 import numpy as np
 import os
 import datetime as dt
-#from pandas.tools.plotting import scatter_matrix
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import seaborn as sns
 
 from functools import reduce
 import ipaddress
 
-dataset_path = os.path.join('..','CTU-13-Dataset')
+dataset_path = os.path.join('..','CTU-13-Dataset/')
 directory = os.fsencode(dataset_path)
 
 files = os.listdir(directory)
@@ -202,6 +203,7 @@ for f in files:
     
     r = df.resample('1S')
     df = r.agg(extractors)
+    df.columns = df.columns.droplevel(0) # get rid of the heirarchical columns
     corr = df.corr()
     fig, ax = plt.subplots(figsize=(15,10))
     p = sns.heatmap(corr,
@@ -210,10 +212,11 @@ for f in files:
             yticklabels=corr.columns.values,
             ax=ax,
             label='CTU-13-Binet {} Heatmap'.format(i))
-    plts.append(p)
+    plt.savefig(os.path.join('..','plots','hm{}'.format(i)))
+    #plts.append(p)
     i += 1
 
-    j = 0
-    for p in plts:
-        p.savefig(os.path.join('..','plots','hm{}'.format(j)))
-        j += 1
+    # j = 0
+    # for p in plts:
+    #     p.savefig(os.path.join('..','plots','hm{}'.format(j)))
+    #     j += 1
