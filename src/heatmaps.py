@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import os
+import sys
 import datetime as dt
 import matplotlib
 matplotlib.use('Agg')
@@ -186,8 +187,9 @@ extractors = {
                 ],
 }
 
-plts = []
-i = 1
+print('Processing...')
+progress = ''
+i = 0
 for f in files:
     df = pd.read_csv(os.path.join(directory,f).decode('utf8'), low_memory=False)
     
@@ -214,8 +216,13 @@ for f in files:
             label='CTU-13-Binet {} Heatmap'.format(i))
     plt.savefig(os.path.join('..','plots','hm{}'.format(i)))
     #plts.append(p)
+    progress = progress + '#' * 6
+    sys.stdout.write('%d/13 Files %s\r' % (i,progress))
+    sys.stdout.flush()
     i += 1
 
+sys.stdout.write('Finished')
+sys.stdout.flush()
     # j = 0
     # for p in plts:
     #     p.savefig(os.path.join('..','plots','hm{}'.format(j)))
