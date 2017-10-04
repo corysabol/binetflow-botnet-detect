@@ -207,7 +207,7 @@ for f in files:
     corr = df.corr()
     fig, ax = plt.subplots(figsize=(15,10))
     p = sns.heatmap(corr,
-            #cmap = sns.diverging_palette(220, 10, as_cmap=True),
+            cmap = sns.diverging_palette(220, 10, as_cmap=True),
             xticklabels=corr.columns.values,
             yticklabels=corr.columns.values,
             ax=ax,
