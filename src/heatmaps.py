@@ -39,23 +39,31 @@ def avg_duration(x):
     return np.average(x)
     
 def n_dports_gt1024(x):
-    if x.size == 0: return 0
-    return reduce((lambda a,b: a+b if b>1024 else a),x)
+    count = 0
+    for p in x:
+        if p>1024: count += 1
+    return count
 n_dports_gt1024.__name__ = 'n_dports>1024'
 
 def n_dports_lt1024(x):
-    if x.size == 0: return 0
-    return reduce((lambda a,b: a+b if b<1024 else a),x)
+    count = 0
+    for p in x:
+        if p<1024: count += 1
+    return count
 n_dports_lt1024.__name__ = 'n_dports<1024'
 
 def n_sports_gt1024(x):
-    if x.size == 0: return 0
-    return reduce((lambda a,b: a+b if b>1024 else a),x)
+    count = 0
+    for p in x:
+        if p>1024: count += 1
+    return count
 n_sports_gt1024.__name__ = 'n_sports>1024'
 
 def n_sports_lt1024(x):
-    if x.size == 0: return 0
-    return reduce((lambda a,b: a+b if b<1024 else a),x)
+    count = 0
+    for p in x:
+        if p<1024: count += 1
+    return count
 n_sports_lt1024.__name__ = 'n_sports<1024'
 
 def label_atk_v_norm(x):
@@ -146,17 +154,36 @@ def n_d_na_p_address(x):
         if classify_ip(i) == 'N/A': count += 1
     return count
 
-def n_ipv6(x):
+def n_s_ipv6(x):
     count = 0
     for i in x:
         if classify_ip(i) == 'ipv6': count += 1
     return count
-    
+
+def n_d_ipv6(x):
+    count = 0
+    for i in x:
+        if classify_ip(i) == 'ipv6': count += 1
+    return count
+
+def n_attack(x):
+    '''
+    Count the number of attacks,
+    to do this we need to simply count number of flows labeled with botnet
+    Do not use this feature for model training.
+    '''
+    count = 0
+    for i in x:
+        if 'Botnet' in i: count += 1
+    return count
+
+
 
 # The datastructure to hold our feature extraction funcitons, which will
 # get applied to each aggregation of the datasets.
 extractors = {
     'Label'   : [label_atk_v_norm,
+                 n_attack,
                  background_flow_count,
                  normal_flow_count,
                  n_conn,
@@ -173,13 +200,13 @@ extractors = {
                  n_s_b_p_address,
                  n_s_c_p_address,
                  n_s_na_p_address,
-                 n_ipv6,
+                 n_s_ipv6,
                 ],
     'DstAddr' : [n_d_a_p_address,
                  n_d_b_p_address,
                  n_d_c_p_address,
                  n_d_na_p_address,
-                 n_ipv6,
+                 n_d_ipv6,
                 ],
     'Proto'   : [n_tcp,
                  n_icmp,
@@ -187,8 +214,6 @@ extractors = {
                 ],
 }
 
-print('Processing...')
-progress = ''
 i = 0
 for f in files:
     df = pd.read_csv(os.path.join(directory,f).decode('utf8'), low_memory=False)
@@ -214,16 +239,6 @@ for f in files:
             yticklabels=corr.columns.values,
             ax=ax,
             label='CTU-13-Binet {} Heatmap'.format(i))
-    plt.savefig(os.path.join('..','plots','hm{}'.format(i)))
-    #plts.append(p)
-    progress = progress + '#' * 6
-    sys.stdout.write('%d/13 Files %s\r' % (i,progress))
-    sys.stdout.flush()
+    plt.savefig(os.path.join('..','plots','hm{}'.format(i+1)))
     i += 1
 
-sys.stdout.write('Finished')
-sys.stdout.flush()
-    # j = 0
-    # for p in plts:
-    #     p.savefig(os.path.join('..','plots','hm{}'.format(j)))
-    #     j += 1
