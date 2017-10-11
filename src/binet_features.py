@@ -55,7 +55,7 @@ def label_atk_v_norm(x):
     for l in x:
         if 'Botnet' in l: return 'Attack'
     return 'Normal'
-#label_atk_v_norm.__name__ = 'label'
+label_atk_v_norm.__name__ = 'label'
 
 def background_flow_count(x):
     count = 0

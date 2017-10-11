@@ -91,8 +91,13 @@ if heatmaps or scatter_mats:
             print('Generating scatter matricies')
             # generate scatter matrices
             sns.set(style='ticks')
-            sns.pairplot(df, hue='label')
+            v = df.columns.tolist()[1:]
+            v.remove('n_d_ipv6')
+            v.remove('n_s_ipv6')
+            print(v)
+            sns.pairplot(df, vars=v, hue='label')
             plt.savefig(os.path.join('..','plots','pp{}'.format(i+1)))
+            break
         i += 1
 else:
     print('Specify heatmaps and or scatter_mats')
