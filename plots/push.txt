@@ -1,1 +1,0 @@
-allow dir to be pushed
