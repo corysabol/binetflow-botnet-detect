@@ -72,6 +72,6 @@ def agg_time(interval='1S'):
         df.columns = df.columns.droplevel(0)
 
         # pickle each df for later
-        df.to_pickle(os.path.join(pickle_dir, f.decode('utf-8')))
+        df.to_pickle(os.path.join(pickle_dir, f.decode('utf-8') + '_pick'))
 
 agg_time('1S')
