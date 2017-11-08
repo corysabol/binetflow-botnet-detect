@@ -2,4 +2,5 @@ CTU-13-Dataset/
 *.swp
 *.pyc
 Datasets/*.tar.*
+Datasets/ctu13pickles/
 env/
