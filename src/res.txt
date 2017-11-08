@@ -313,3 +313,237 @@ avg / total       0.37      0.61      0.46      6611
 
 ======================
 
+(15080, 22)
+Training decision tree
+DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=0,
+            splitter='best')
+             precision    recall  f1-score   support
+
+     Attack       1.00      1.00      1.00       315
+     Normal       1.00      1.00      1.00      4209
+
+avg / total       1.00      1.00      1.00      4524
+
+Dataframe: shape (15080, 22)
+======================
+
+(239728, 22)
+Training decision tree
+DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=0,
+            splitter='best')
+             precision    recall  f1-score   support
+
+     Attack       1.00      1.00      1.00      6120
+     Normal       1.00      1.00      1.00     65799
+
+avg / total       1.00      1.00      1.00     71919
+
+Dataframe: shape (239728, 22)
+======================
+
+(971, 22)
+Training decision tree
+DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=0,
+            splitter='best')
+             precision    recall  f1-score   support
+
+     Attack       1.00      1.00      1.00        37
+     Normal       1.00      1.00      1.00       255
+
+avg / total       1.00      1.00      1.00       292
+
+Dataframe: shape (971, 22)
+======================
+
+(1807, 22)
+Training decision tree
+DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=0,
+            splitter='best')
+             precision    recall  f1-score   support
+
+     Attack       1.00      1.00      1.00       145
+     Normal       1.00      1.00      1.00       398
+
+avg / total       1.00      1.00      1.00       543
+
+Dataframe: shape (1807, 22)
+======================
+
+(1278, 22)
+Training decision tree
+DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=0,
+            splitter='best')
+             precision    recall  f1-score   support
+
+     Attack       1.00      1.00      1.00         6
+     Normal       1.00      1.00      1.00       378
+
+avg / total       1.00      1.00      1.00       384
+
+Dataframe: shape (1278, 22)
+======================
+
+(70097, 22)
+Training decision tree
+DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=0,
+            splitter='best')
+             precision    recall  f1-score   support
+
+     Attack       1.00      1.00      1.00       680
+     Normal       1.00      1.00      1.00     20350
+
+avg / total       1.00      1.00      1.00     21030
+
+Dataframe: shape (70097, 22)
+======================
+
+(58941, 22)
+Training decision tree
+DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=0,
+            splitter='best')
+             precision    recall  f1-score   support
+
+     Attack       1.00      1.00      1.00      8242
+     Normal       1.00      1.00      1.00      9441
+
+avg / total       1.00      1.00      1.00     17683
+
+Dataframe: shape (58941, 22)
+======================
+
+(15097, 22)
+Training decision tree
+DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=0,
+            splitter='best')
+             precision    recall  f1-score   support
+
+     Attack       1.00      1.00      1.00      1416
+     Normal       1.00      1.00      1.00      3114
+
+avg / total       1.00      1.00      1.00      4530
+
+Dataframe: shape (15097, 22)
+======================
+
+(18672, 22)
+Training decision tree
+DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=0,
+            splitter='best')
+             precision    recall  f1-score   support
+
+     Attack       1.00      1.00      1.00      2815
+     Normal       1.00      1.00      1.00      2787
+
+avg / total       1.00      1.00      1.00      5602
+
+Dataframe: shape (18672, 22)
+======================
+
+(7751, 22)
+Training decision tree
+DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=0,
+            splitter='best')
+             precision    recall  f1-score   support
+
+     Attack       1.00      1.00      1.00       261
+     Normal       1.00      1.00      1.00      2065
+
+avg / total       1.00      1.00      1.00      2326
+
+Dataframe: shape (7751, 22)
+======================
+
+(17039, 22)
+Training decision tree
+DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=0,
+            splitter='best')
+             precision    recall  f1-score   support
+
+     Attack       1.00      1.00      1.00       334
+     Normal       1.00      1.00      1.00      4778
+
+avg / total       1.00      1.00      1.00      5112
+
+Dataframe: shape (17039, 22)
+======================
+
+(4418, 22)
+Training decision tree
+DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=0,
+            splitter='best')
+             precision    recall  f1-score   support
+
+     Attack       1.00      1.00      1.00       179
+     Normal       1.00      1.00      1.00      1147
+
+avg / total       1.00      1.00      1.00      1326
+
+Dataframe: shape (4418, 22)
+======================
+
+(22034, 22)
+Training decision tree
+DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=0,
+            splitter='best')
+             precision    recall  f1-score   support
+
+     Attack       1.00      1.00      1.00      2616
+     Normal       1.00      1.00      1.00      3995
+
+avg / total       1.00      1.00      1.00      6611
+
+Dataframe: shape (22034, 22)
+======================
+
