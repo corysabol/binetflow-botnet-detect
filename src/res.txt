@@ -1,0 +1,315 @@
+................*.*
+optimization finished, #iter = 17793
+obj = -1112.513546, rho = 0.921479
+nSV = 10556, nBSV = 761
+Total nSV = 10556
+................................................................................................*.............................................*.*
+optimization finished, #iter = 141837
+obj = -18037.171274, rho = 0.794049
+nSV = 73208, nBSV = 13559
+Total nSV = 73208
+.*.*
+optimization finished, #iter = 1872
+obj = -122.714348, rho = 0.854291
+nSV = 679, nBSV = 86
+Total nSV = 679
+.*.*
+optimization finished, #iter = 2545
+obj = -472.070733, rho = 0.593236
+nSV = 1264, nBSV = 367
+Total nSV = 1264
+.*
+optimization finished, #iter = 1650
+obj = -29.775274, rho = 0.976885
+nSV = 894, nBSV = 20
+Total nSV = 894
+.............................................*...................*
+optimization finished, #iter = 64774
+obj = -2520.679948, rho = 0.953306
+nSV = 39853, nBSV = 1674
+Total nSV = 39853
+............................................*............*
+optimization finished, #iter = 56578
+obj = -19671.664015, rho = 0.114957
+nSV = 40562, nBSV = 18612
+Total nSV = 40562
+.................*.*
+optimization finished, #iter = 18078
+obj = -4190.363095, rho = 0.545906
+nSV = 10567, nBSV = 3292
+Total nSV = 10567
+................*.....*
+optimization finished, #iter = 21082
+obj = -6478.557149, rho = -0.020585
+nSV = 13070, nBSV = 5364
+Total nSV = 13070
+........*...*
+optimization finished, #iter = 11889
+obj = -806.144749, rho = 0.882845
+nSV = 5425, nBSV = 559
+Total nSV = 5425
+...................*......*
+optimization finished, #iter = 25629
+obj = -1145.490272, rho = 0.927348
+nSV = 11925, nBSV = 783
+Total nSV = 11925
+....*.*
+optimization finished, #iter = 5716
+obj = -591.853148, rho = 0.842905
+nSV = 3092, nBSV = 416
+Total nSV = 3092
+........................*......*
+optimization finished, #iter = 30114
+obj = -7150.619824, rho = 0.341111
+nSV = 15423, nBSV = 6108
+Total nSV = 15423
+/usr/local/lib/python3.5/dist-packages/sklearn/model_selection/_split.py:2026: FutureWarning: From version 0.21, test_size will always complement train_size unless both are specified.
+  FutureWarning)
+/usr/local/lib/python3.5/dist-packages/sklearn/metrics/classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python3.5/dist-packages/sklearn/model_selection/_split.py:2026: FutureWarning: From version 0.21, test_size will always complement train_size unless both are specified.
+  FutureWarning)
+/usr/local/lib/python3.5/dist-packages/sklearn/model_selection/_split.py:2026: FutureWarning: From version 0.21, test_size will always complement train_size unless both are specified.
+  FutureWarning)
+/usr/local/lib/python3.5/dist-packages/sklearn/metrics/classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python3.5/dist-packages/sklearn/model_selection/_split.py:2026: FutureWarning: From version 0.21, test_size will always complement train_size unless both are specified.
+  FutureWarning)
+/usr/local/lib/python3.5/dist-packages/sklearn/metrics/classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python3.5/dist-packages/sklearn/model_selection/_split.py:2026: FutureWarning: From version 0.21, test_size will always complement train_size unless both are specified.
+  FutureWarning)
+/usr/local/lib/python3.5/dist-packages/sklearn/metrics/classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python3.5/dist-packages/sklearn/model_selection/_split.py:2026: FutureWarning: From version 0.21, test_size will always complement train_size unless both are specified.
+  FutureWarning)
+/usr/local/lib/python3.5/dist-packages/sklearn/metrics/classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python3.5/dist-packages/sklearn/model_selection/_split.py:2026: FutureWarning: From version 0.21, test_size will always complement train_size unless both are specified.
+  FutureWarning)
+/usr/local/lib/python3.5/dist-packages/sklearn/model_selection/_split.py:2026: FutureWarning: From version 0.21, test_size will always complement train_size unless both are specified.
+  FutureWarning)
+/usr/local/lib/python3.5/dist-packages/sklearn/metrics/classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python3.5/dist-packages/sklearn/model_selection/_split.py:2026: FutureWarning: From version 0.21, test_size will always complement train_size unless both are specified.
+  FutureWarning)
+/usr/local/lib/python3.5/dist-packages/sklearn/model_selection/_split.py:2026: FutureWarning: From version 0.21, test_size will always complement train_size unless both are specified.
+  FutureWarning)
+/usr/local/lib/python3.5/dist-packages/sklearn/metrics/classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python3.5/dist-packages/sklearn/model_selection/_split.py:2026: FutureWarning: From version 0.21, test_size will always complement train_size unless both are specified.
+  FutureWarning)
+/usr/local/lib/python3.5/dist-packages/sklearn/model_selection/_split.py:2026: FutureWarning: From version 0.21, test_size will always complement train_size unless both are specified.
+  FutureWarning)
+/usr/local/lib/python3.5/dist-packages/sklearn/metrics/classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python3.5/dist-packages/sklearn/model_selection/_split.py:2026: FutureWarning: From version 0.21, test_size will always complement train_size unless both are specified.
+  FutureWarning)
+(15080, 22)
+Dataframe: shape (15080, 22)
+Training SVM on first dataset
+[LibSVM]SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=True)
+             precision    recall  f1-score   support
+
+     Attack       0.00      0.00      0.00       332
+     Normal       0.93      1.00      0.96      4192
+
+avg / total       0.86      0.93      0.89      4524
+
+======================
+
+(239728, 22)
+Dataframe: shape (239728, 22)
+Training SVM on first dataset
+[LibSVM]SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=True)
+             precision    recall  f1-score   support
+
+     Attack       0.97      0.21      0.34      6164
+     Normal       0.93      1.00      0.96     65755
+
+avg / total       0.93      0.93      0.91     71919
+
+======================
+
+(971, 22)
+Dataframe: shape (971, 22)
+Training SVM on first dataset
+[LibSVM]SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=True)
+             precision    recall  f1-score   support
+
+     Attack       0.00      0.00      0.00        31
+     Normal       0.89      1.00      0.94       261
+
+avg / total       0.80      0.89      0.84       292
+
+======================
+
+(1807, 22)
+Dataframe: shape (1807, 22)
+Training SVM on first dataset
+[LibSVM]SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=True)
+             precision    recall  f1-score   support
+
+     Attack       0.00      0.00      0.00       153
+     Normal       0.72      1.00      0.84       390
+
+avg / total       0.52      0.72      0.60       543
+
+======================
+
+(1278, 22)
+Dataframe: shape (1278, 22)
+Training SVM on first dataset
+[LibSVM]SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=True)
+             precision    recall  f1-score   support
+
+     Attack       0.00      0.00      0.00         3
+     Normal       0.99      1.00      1.00       381
+
+avg / total       0.98      0.99      0.99       384
+
+======================
+
+(70097, 22)
+Dataframe: shape (70097, 22)
+Training SVM on first dataset
+[LibSVM]SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=True)
+             precision    recall  f1-score   support
+
+     Attack       0.00      0.00      0.00       685
+     Normal       0.97      1.00      0.98     20345
+
+avg / total       0.94      0.97      0.95     21030
+
+======================
+
+(58941, 22)
+Dataframe: shape (58941, 22)
+Training SVM on first dataset
+[LibSVM]SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=True)
+             precision    recall  f1-score   support
+
+     Attack       0.67      0.38      0.49      8225
+     Normal       0.61      0.83      0.70      9458
+
+avg / total       0.64      0.62      0.60     17683
+
+======================
+
+(15097, 22)
+Dataframe: shape (15097, 22)
+Training SVM on first dataset
+[LibSVM]SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=True)
+             precision    recall  f1-score   support
+
+     Attack       0.00      0.00      0.00      1427
+     Normal       0.68      1.00      0.81      3103
+
+avg / total       0.47      0.68      0.56      4530
+
+======================
+
+(18672, 22)
+Dataframe: shape (18672, 22)
+Training SVM on first dataset
+[LibSVM]SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=True)
+             precision    recall  f1-score   support
+
+     Attack       0.54      0.99      0.70      2753
+     Normal       0.95      0.20      0.33      2849
+
+avg / total       0.75      0.59      0.51      5602
+
+======================
+
+(7751, 22)
+Dataframe: shape (7751, 22)
+Training SVM on first dataset
+[LibSVM]SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=True)
+             precision    recall  f1-score   support
+
+     Attack       0.00      0.00      0.00       257
+     Normal       0.89      1.00      0.94      2069
+
+avg / total       0.79      0.89      0.84      2326
+
+======================
+
+(17039, 22)
+Dataframe: shape (17039, 22)
+Training SVM on first dataset
+[LibSVM]SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=True)
+             precision    recall  f1-score   support
+
+     Attack       1.00      0.00      0.01       357
+     Normal       0.93      1.00      0.96      4755
+
+avg / total       0.94      0.93      0.90      5112
+
+======================
+
+(4418, 22)
+Dataframe: shape (4418, 22)
+Training SVM on first dataset
+[LibSVM]SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=True)
+             precision    recall  f1-score   support
+
+     Attack       0.00      0.00      0.00       167
+     Normal       0.87      1.00      0.93      1159
+
+avg / total       0.76      0.87      0.82      1326
+
+======================
+
+(22034, 22)
+Dataframe: shape (22034, 22)
+Training SVM on first dataset
+[LibSVM]SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=True)
+             precision    recall  f1-score   support
+
+     Attack       0.00      0.00      0.00      2603
+     Normal       0.61      1.00      0.75      4008
+
+avg / total       0.37      0.61      0.46      6611
+
+======================
+
