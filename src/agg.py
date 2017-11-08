@@ -52,7 +52,6 @@ def agg_time(interval='1S'):
     path = os.path.join('..','CTU-13-Dataset/')
 
     for f in get_files(path):
-        print(f.decode('utf-8'))
         df = pd.read_csv(os.path.join(path, f.decode('utf-8')))
         # chop off the ms from the start time and reindex the df to use
         # start time as a datetime object index.
